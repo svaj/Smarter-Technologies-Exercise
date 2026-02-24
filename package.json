@@ -1,0 +1,50 @@
+{
+  "name": "shipping-sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "lint": "eslint src --fix --ext .ts",
+    "format": "prettier --write .",
+    "prepare": "npm run build"
+  },
+  "bin": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svaj/Smarter-Technologies-Exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svaj/Smarter-Technologies-Exercise/issues"
+  },
+  "homepage": "https://github.com/svaj/Smarter-Technologies-Exercise#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.3.0",
+    "@types/split2": "^4.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^10.0.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "jest": "^30.2.0",
+    "prettier": "^3.8.1",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1"
+  },
+  "dependencies": {
+    "commander": "^14.0.3",
+    "split2": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=22.22.0",
+    "npm": ">=10.9.4"
+  }
+}
